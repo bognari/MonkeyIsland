@@ -1,0 +1,80 @@
+ul {
+    list-style: none;
+    font-size: 26pt;
+    margin-left: 5%;
+}
+
+ul li {
+    float: left;
+    padding: 10px;
+}
+
+
+
+/* 1. */
+.three ul li:nth-child(3n+1) {
+    clear: both;
+    list-style-type: disc;
+    min-width: 13em;
+}
+
+/* 2. */
+.three ul li:nth-child(3n+2) {
+    min-width: 8em;
+    text-align: right;
+}
+
+.three ul li:nth-child(3n+2)::after {
+    content: " L";
+}
+
+/* 3. */
+.three ul li:nth-child(3n) {
+    min-width: 3em;
+    text-align: right;
+}
+
+.three ul li:nth-child(3n)::after {
+    content: " €";
+}
+
+/* 1. */
+.two ul li:nth-child(2n+1) {
+    clear: both;
+    list-style-type: disc;
+    min-width: 16em;
+}
+
+/* 2. */
+.two ul li:nth-child(2n) {
+    min-width: 3em;
+    text-align: right;
+}
+
+.two ul li:nth-child(2n)::after {
+    content: " €";
+}
+
+
+
+/*ul {
+
+}*/
+
+h1 {
+    font-size: 30pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: sans-serif;
+    /*color: #ffff00;*/
+    color: #ffffff;
+    background: #000060 url('mi2_white.svg') no-repeat fixed right 2em center;
+    background-size: 30% auto;
+}
+
+.hide {
+    display: none;
+}
