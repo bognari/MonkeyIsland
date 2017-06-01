@@ -28,7 +28,7 @@ ul li {
 
 /* 3. */
 .three ul li:nth-child(3n) {
-    min-width: 3em;
+    min-width: 4em;
     text-align: right;
 }
 
@@ -45,7 +45,7 @@ ul li {
 
 /* 2. */
 .two ul li:nth-child(2n) {
-    min-width: 3em;
+    min-width: 4em;
     text-align: right;
 }
 
