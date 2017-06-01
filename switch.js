@@ -1,7 +1,7 @@
 "use strict";
 
 var slides = ['cocktails', 'alkoholfrei', 'spirituosen'];
-var time = 5000;
+var time = 30000;
 
 var param = window.location.search.substr(1).split('&');
 
@@ -43,7 +43,7 @@ function diashow(number) {
         var n = d.getTime();
         n /= 1000;
 
-        if (Math.floor(n % 5) === 0) {
+        if (Math.floor(n % 30) === 0) {
             changeContent(slides[slide], 'hide');
             slot = Math.floor(d.getTime() / time);
             slide = (slot + number) % slides.length;

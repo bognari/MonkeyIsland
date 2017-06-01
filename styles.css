@@ -1,6 +1,6 @@
 ul {
     list-style: none;
-    font-size: 26pt;
+    font-size: 24pt;
     margin-left: 5%;
 }
 
@@ -9,23 +9,21 @@ ul li {
     padding: 10px;
 }
 
-
+.small {
+    line-height: 110%;
+}
 
 /* 1. */
 .three ul li:nth-child(3n+1) {
     clear: both;
     list-style-type: disc;
-    min-width: 13em;
+    min-width: 16em;
 }
 
 /* 2. */
 .three ul li:nth-child(3n+2) {
-    min-width: 8em;
+    min-width: 2em;
     text-align: right;
-}
-
-.three ul li:nth-child(3n+2)::after {
-    content: " L";
 }
 
 /* 3. */
@@ -42,7 +40,7 @@ ul li {
 .two ul li:nth-child(2n+1) {
     clear: both;
     list-style-type: disc;
-    min-width: 16em;
+    min-width: 19em;
 }
 
 /* 2. */
@@ -55,11 +53,9 @@ ul li {
     content: " €";
 }
 
-
-
-/*ul {
-
-}*/
+.huge ul li:nth-child(3n+2) {
+    min-width: 8em;
+}
 
 h1 {
     font-size: 30pt;
