@@ -28,7 +28,7 @@ ul li {
 
 /* 3. */
 .three ul li:nth-child(3n) {
-    min-width: 4em;
+    min-width: 5em;
     text-align: right;
 }
 
