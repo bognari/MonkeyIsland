@@ -1,6 +1,6 @@
 ul {
     list-style: none;
-    font-size: 38pt;
+    font-size: 33pt;
     margin-left: 2%;
 }
 
@@ -10,7 +10,7 @@ ul li {
 }
 
 .small {
-    line-height: 220%;
+    line-height: 180%;
 }
 
 /* 1. */
@@ -59,25 +59,6 @@ ul li {
 
 /* 2. und 4. */
 .four ul li:nth-child(2n+2) {
-    min-width: 3.5em;
-    text-align: right;
-    margin-right: 1.5em;
-}
-
-/* 1. */
-.five ul li:nth-child(4n+1) {
-    clear: both;
-}
-
-/* 1. und 3. */
-
-.five ul li:nth-child(2n+1) {
-    list-style-type: disc;
-    min-width: 17em;
-}
-
-/* 2. und 4. */
-.five ul li:nth-child(2n+2) {
     min-width: 3.5em;
     text-align: right;
     margin-right: 1.5em;
