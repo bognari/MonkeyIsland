@@ -63,6 +63,25 @@ ul li {
     text-align: right;
     margin-right: 1.5em;
 }
+/* 1. */
+.five ul li:nth-child(4n+1) {
+    clear: both;
+}
+
+/* 1. und 3. */
+
+.five ul li:nth-child(2n+1) {
+    list-style-type: disc;
+    min-width: 10em;
+}
+
+/* 2. und 4. */
+.five ul li:nth-child(2n+2) {
+    min-width: 3.5em;
+    text-align: right;
+    margin-right: 1.5em;
+}
+
 
 .huge ul li:nth-child(3n+2) {
     min-width: 8em;
