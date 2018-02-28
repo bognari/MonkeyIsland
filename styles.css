@@ -17,7 +17,7 @@ ul li {
 .three ul li:nth-child(3n+1) {
     clear: both;
     list-style-type: disc;
-    min-width: 19em;
+    min-width: 17.5em;
 }
 
 /* 2. */
